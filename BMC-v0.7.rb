@@ -23,7 +23,7 @@ include HTML
 Dir.mkdir("files_store" , 1775) if Dir.exist?("files_store") == false
 APP_ROOT     = Dir.pwd
 FILES_STORE  = "#{APP_ROOT}/files_store/"
-API_KEY      = '67168ef6c99aba5fad9a0e364db3b359dcf62a7feef3f22c491c98824fc0cc6d'            # Put your VT API here
+API_KEY      = 'Put your VT API here'            # Put your VT API here
 DB_URL       = "http://localhost/m3.txt"                 # Put your URL here
 $log         = "bmc.log"
 
